@@ -1,0 +1,5162 @@
+[
+  {
+    "id": "00",
+    "length": 18,
+    "description": "Serial Shipping Container Code (SSCC)",
+    "dataTitle": "SSCC",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "01",
+    "length": 14,
+    "description": "Global Trade Item Number (GTIN)",
+    "dataTitle": "GTIN",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "NVE",
+    "dataType": ""
+  },
+  {
+    "id": "02",
+    "length": 14,
+    "description": "Global Trade Item Number (GTIN) of contained trade items",
+    "dataTitle": "CONTENT",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "10",
+    "length": 20,
+    "description": "Batch or lot number",
+    "dataTitle": "BATCH/LOT",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "11",
+    "length": 6,
+    "description": "Production date (YYMMDD)",
+    "dataTitle": "PROD DATE",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": "date"
+  },
+  {
+    "id": "12",
+    "length": 6,
+    "description": "Due date (YYMMDD)",
+    "dataTitle": "DUE DATE",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "13",
+    "length": 6,
+    "description": "Packaging date (YYMMDD)",
+    "dataTitle": "PACK DATE",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "15",
+    "length": 6,
+    "description": "Best before date (YYMMDD)",
+    "dataTitle": "BEST BEFORE or BEST BY",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "16",
+    "length": 6,
+    "description": "Sell by date (YYMMDD)",
+    "dataTitle": "SELL BY",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "17",
+    "length": 6,
+    "description": "Expiration date (YYMMDD)",
+    "dataTitle": "USE BY OR EXPIRY",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "20",
+    "length": 2,
+    "description": "Internal product variant",
+    "dataTitle": "VARIANT",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "21",
+    "length": 20,
+    "description": "Serial number",
+    "dataTitle": "SERIAL",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "22",
+    "length": 20,
+    "description": "Consumer product variant",
+    "dataTitle": "CPV",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "235",
+    "length": 28,
+    "description": "Third Party Controlled, Serialised Extension of GTIN (TPX)",
+    "dataTitle": "TPX",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "240",
+    "length": 30,
+    "description": "Additional product identification assigned by the manufacturer",
+    "dataTitle": "ADDITIONAL ID",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "241",
+    "length": 30,
+    "description": "Customer part number",
+    "dataTitle": "CUST. PART NO.",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "242",
+    "length": 6,
+    "description": "Made-to-Order variation number",
+    "dataTitle": "MTO VARIANT",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "243",
+    "length": 20,
+    "description": "Packaging component number",
+    "dataTitle": "PCN",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "250",
+    "length": 30,
+    "description": "Secondary serial number",
+    "dataTitle": "SECONDARY SERIAL",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "251",
+    "length": 30,
+    "description": "Reference to source entity",
+    "dataTitle": "REF. TO SOURCE",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "253",
+    "length": 30,
+    "description": "Global Document Type Identifier (GDTI)",
+    "dataTitle": "GDTI",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "254",
+    "length": 20,
+    "description": "Global Location Number (GLN) extension component",
+    "dataTitle": "GLN EXTENSION COMPONENT",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "255",
+    "length": 25,
+    "description": "Global Coupon Number (GCN)",
+    "dataTitle": "GCN",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "30",
+    "length": 8,
+    "description": "Variable count of items (variable measure trade item)",
+    "dataTitle": "VAR. COUNT",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3100",
+    "length": 6,
+    "description": "Net weight, kilograms (variable measure trade item)",
+    "dataTitle": "NET WEIGHT (kg)",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3101",
+    "length": 6,
+    "description": "Net weight, kilograms (variable measure trade item)",
+    "dataTitle": "NET WEIGHT (kg)",
+    "fnc1": false,
+    "decimals": 1,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3102",
+    "length": 6,
+    "description": "Net weight, kilograms (variable measure trade item)",
+    "dataTitle": "NET WEIGHT (kg)",
+    "fnc1": false,
+    "decimals": 2,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3103",
+    "length": 6,
+    "description": "Net weight, kilograms (variable measure trade item)",
+    "dataTitle": "NET WEIGHT (kg)",
+    "fnc1": false,
+    "decimals": 3,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3104",
+    "length": 6,
+    "description": "Net weight, kilograms (variable measure trade item)",
+    "dataTitle": "NET WEIGHT (kg)",
+    "fnc1": false,
+    "decimals": 4,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3105",
+    "length": 6,
+    "description": "Net weight, kilograms (variable measure trade item)",
+    "dataTitle": "NET WEIGHT (kg)",
+    "fnc1": false,
+    "decimals": 5,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3110",
+    "length": 6,
+    "description": "Length or first dimension, metres (variable measure trade item)",
+    "dataTitle": "LENGTH (m)",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3111",
+    "length": 6,
+    "description": "Length or first dimension, metres (variable measure trade item)",
+    "dataTitle": "LENGTH (m)",
+    "fnc1": false,
+    "decimals": 1,
+    "shortName": "",
+    "dataType": "double"
+  },
+  {
+    "id": "3112",
+    "length": 6,
+    "description": "Length or first dimension, metres (variable measure trade item)",
+    "dataTitle": "LENGTH (m)",
+    "fnc1": false,
+    "decimals": 2,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3113",
+    "length": 6,
+    "description": "Length or first dimension, metres (variable measure trade item)",
+    "dataTitle": "LENGTH (m)",
+    "fnc1": false,
+    "decimals": 3,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3114",
+    "length": 6,
+    "description": "Length or first dimension, metres (variable measure trade item)",
+    "dataTitle": "LENGTH (m)",
+    "fnc1": false,
+    "decimals": 4,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3115",
+    "length": 6,
+    "description": "Length or first dimension, metres (variable measure trade item)",
+    "dataTitle": "LENGTH (m)",
+    "fnc1": false,
+    "decimals": 5,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3120",
+    "length": 6,
+    "description": "Width, diameter, or second dimension, metres (variable measure trade item)",
+    "dataTitle": "WIDTH (m)",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3121",
+    "length": 6,
+    "description": "Width, diameter, or second dimension, metres (variable measure trade item)",
+    "dataTitle": "WIDTH (m)",
+    "fnc1": false,
+    "decimals": 1,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3122",
+    "length": 6,
+    "description": "Width, diameter, or second dimension, metres (variable measure trade item)",
+    "dataTitle": "WIDTH (m)",
+    "fnc1": false,
+    "decimals": 2,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3123",
+    "length": 6,
+    "description": "Width, diameter, or second dimension, metres (variable measure trade item)",
+    "dataTitle": "WIDTH (m)",
+    "fnc1": false,
+    "decimals": 3,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3124",
+    "length": 6,
+    "description": "Width, diameter, or second dimension, metres (variable measure trade item)",
+    "dataTitle": "WIDTH (m)",
+    "fnc1": false,
+    "decimals": 4,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3125",
+    "length": 6,
+    "description": "Width, diameter, or second dimension, metres (variable measure trade item)",
+    "dataTitle": "WIDTH (m)",
+    "fnc1": false,
+    "decimals": 5,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3130",
+    "length": 6,
+    "description": "Depth, thickness, height, or third dimension, metres (variable measure trade item)",
+    "dataTitle": "HEIGHT (m)",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3131",
+    "length": 6,
+    "description": "Depth, thickness, height, or third dimension, metres (variable measure trade item)",
+    "dataTitle": "HEIGHT (m)",
+    "fnc1": false,
+    "decimals": 1,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3132",
+    "length": 6,
+    "description": "Depth, thickness, height, or third dimension, metres (variable measure trade item)",
+    "dataTitle": "HEIGHT (m)",
+    "fnc1": false,
+    "decimals": 2,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3133",
+    "length": 6,
+    "description": "Depth, thickness, height, or third dimension, metres (variable measure trade item)",
+    "dataTitle": "HEIGHT (m)",
+    "fnc1": false,
+    "decimals": 3,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3134",
+    "length": 6,
+    "description": "Depth, thickness, height, or third dimension, metres (variable measure trade item)",
+    "dataTitle": "HEIGHT (m)",
+    "fnc1": false,
+    "decimals": 4,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3135",
+    "length": 6,
+    "description": "Depth, thickness, height, or third dimension, metres (variable measure trade item)",
+    "dataTitle": "HEIGHT (m)",
+    "fnc1": false,
+    "decimals": 5,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3140",
+    "length": 6,
+    "description": "Area, square metres (variable measure trade item)",
+    "dataTitle": "AREA (m2)",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3141",
+    "length": 6,
+    "description": "Area, square metres (variable measure trade item)",
+    "dataTitle": "AREA (m2)",
+    "fnc1": false,
+    "decimals": 1,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3142",
+    "length": 6,
+    "description": "Area, square metres (variable measure trade item)",
+    "dataTitle": "AREA (m2)",
+    "fnc1": false,
+    "decimals": 2,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3143",
+    "length": 6,
+    "description": "Area, square metres (variable measure trade item)",
+    "dataTitle": "AREA (m2)",
+    "fnc1": false,
+    "decimals": 3,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3144",
+    "length": 6,
+    "description": "Area, square metres (variable measure trade item)",
+    "dataTitle": "AREA (m2)",
+    "fnc1": false,
+    "decimals": 4,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3145",
+    "length": 6,
+    "description": "Area, square metres (variable measure trade item)",
+    "dataTitle": "AREA (m2)",
+    "fnc1": false,
+    "decimals": 5,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3150",
+    "length": 6,
+    "description": "Net volume, litres (variable measure trade item)",
+    "dataTitle": "NET VOLUME (l)",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3151",
+    "length": 6,
+    "description": "Net volume, litres (variable measure trade item)",
+    "dataTitle": "NET VOLUME (l)",
+    "fnc1": false,
+    "decimals": 1,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3152",
+    "length": 6,
+    "description": "Net volume, litres (variable measure trade item)",
+    "dataTitle": "NET VOLUME (l)",
+    "fnc1": false,
+    "decimals": 2,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3153",
+    "length": 6,
+    "description": "Net volume, litres (variable measure trade item)",
+    "dataTitle": "NET VOLUME (l)",
+    "fnc1": false,
+    "decimals": 3,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3154",
+    "length": 6,
+    "description": "Net volume, litres (variable measure trade item)",
+    "dataTitle": "NET VOLUME (l)",
+    "fnc1": false,
+    "decimals": 4,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3155",
+    "length": 6,
+    "description": "Net volume, litres (variable measure trade item)",
+    "dataTitle": "NET VOLUME (l)",
+    "fnc1": false,
+    "decimals": 5,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3160",
+    "length": 6,
+    "description": "Net volume, cubic metres (variable measure trade item)",
+    "dataTitle": "NET VOLUME (m3)",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3161",
+    "length": 6,
+    "description": "Net volume, cubic metres (variable measure trade item)",
+    "dataTitle": "NET VOLUME (m3)",
+    "fnc1": false,
+    "decimals": 1,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3162",
+    "length": 6,
+    "description": "Net volume, cubic metres (variable measure trade item)",
+    "dataTitle": "NET VOLUME (m3)",
+    "fnc1": false,
+    "decimals": 2,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3163",
+    "length": 6,
+    "description": "Net volume, cubic metres (variable measure trade item)",
+    "dataTitle": "NET VOLUME (m3)",
+    "fnc1": false,
+    "decimals": 3,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3164",
+    "length": 6,
+    "description": "Net volume, cubic metres (variable measure trade item)",
+    "dataTitle": "NET VOLUME (m3)",
+    "fnc1": false,
+    "decimals": 4,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3165",
+    "length": 6,
+    "description": "Net volume, cubic metres (variable measure trade item)",
+    "dataTitle": "NET VOLUME (m3)",
+    "fnc1": false,
+    "decimals": 5,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3200",
+    "length": 6,
+    "description": "Net weight, pounds (variable measure trade item)",
+    "dataTitle": "NET WEIGHT (lb)",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3201",
+    "length": 6,
+    "description": "Net weight, pounds (variable measure trade item)",
+    "dataTitle": "NET WEIGHT (lb)",
+    "fnc1": false,
+    "decimals": 1,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3202",
+    "length": 6,
+    "description": "Net weight, pounds (variable measure trade item)",
+    "dataTitle": "NET WEIGHT (lb)",
+    "fnc1": false,
+    "decimals": 2,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3203",
+    "length": 6,
+    "description": "Net weight, pounds (variable measure trade item)",
+    "dataTitle": "NET WEIGHT (lb)",
+    "fnc1": false,
+    "decimals": 3,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3204",
+    "length": 6,
+    "description": "Net weight, pounds (variable measure trade item)",
+    "dataTitle": "NET WEIGHT (lb)",
+    "fnc1": false,
+    "decimals": 4,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3205",
+    "length": 6,
+    "description": "Net weight, pounds (variable measure trade item)",
+    "dataTitle": "NET WEIGHT (lb)",
+    "fnc1": false,
+    "decimals": 5,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3210",
+    "length": 6,
+    "description": "Length or first dimension, inches (variable measure trade item)",
+    "dataTitle": "LENGTH (in)",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3211",
+    "length": 6,
+    "description": "Length or first dimension, inches (variable measure trade item)",
+    "dataTitle": "LENGTH (in)",
+    "fnc1": false,
+    "decimals": 1,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3212",
+    "length": 6,
+    "description": "Length or first dimension, inches (variable measure trade item)",
+    "dataTitle": "LENGTH (in)",
+    "fnc1": false,
+    "decimals": 2,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3213",
+    "length": 6,
+    "description": "Length or first dimension, inches (variable measure trade item)",
+    "dataTitle": "LENGTH (in)",
+    "fnc1": false,
+    "decimals": 3,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3214",
+    "length": 6,
+    "description": "Length or first dimension, inches (variable measure trade item)",
+    "dataTitle": "LENGTH (in)",
+    "fnc1": false,
+    "decimals": 4,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3215",
+    "length": 6,
+    "description": "Length or first dimension, inches (variable measure trade item)",
+    "dataTitle": "LENGTH (in)",
+    "fnc1": false,
+    "decimals": 5,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3220",
+    "length": 6,
+    "description": "Length or first dimension, feet (variable measure trade item)",
+    "dataTitle": "LENGTH (ft)",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3221",
+    "length": 6,
+    "description": "Length or first dimension, feet (variable measure trade item)",
+    "dataTitle": "LENGTH (ft)",
+    "fnc1": false,
+    "decimals": 1,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3222",
+    "length": 6,
+    "description": "Length or first dimension, feet (variable measure trade item)",
+    "dataTitle": "LENGTH (ft)",
+    "fnc1": false,
+    "decimals": 2,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3223",
+    "length": 6,
+    "description": "Length or first dimension, feet (variable measure trade item)",
+    "dataTitle": "LENGTH (ft)",
+    "fnc1": false,
+    "decimals": 3,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3224",
+    "length": 6,
+    "description": "Length or first dimension, feet (variable measure trade item)",
+    "dataTitle": "LENGTH (ft)",
+    "fnc1": false,
+    "decimals": 4,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3225",
+    "length": 6,
+    "description": "Length or first dimension, feet (variable measure trade item)",
+    "dataTitle": "LENGTH (ft)",
+    "fnc1": false,
+    "decimals": 5,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3230",
+    "length": 6,
+    "description": "Length or first dimension, yards (variable measure trade item)",
+    "dataTitle": "LENGTH (yd)",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3231",
+    "length": 6,
+    "description": "Length or first dimension, yards (variable measure trade item)",
+    "dataTitle": "LENGTH (yd)",
+    "fnc1": false,
+    "decimals": 1,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3232",
+    "length": 6,
+    "description": "Length or first dimension, yards (variable measure trade item)",
+    "dataTitle": "LENGTH (yd)",
+    "fnc1": false,
+    "decimals": 2,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3233",
+    "length": 6,
+    "description": "Length or first dimension, yards (variable measure trade item)",
+    "dataTitle": "LENGTH (yd)",
+    "fnc1": false,
+    "decimals": 3,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3234",
+    "length": 6,
+    "description": "Length or first dimension, yards (variable measure trade item)",
+    "dataTitle": "LENGTH (yd)",
+    "fnc1": false,
+    "decimals": 4,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3235",
+    "length": 6,
+    "description": "Length or first dimension, yards (variable measure trade item)",
+    "dataTitle": "LENGTH (yd)",
+    "fnc1": false,
+    "decimals": 5,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3240",
+    "length": 6,
+    "description": "Width, diameter, or second dimension, inches (variable measure trade item)",
+    "dataTitle": "WIDTH (in)",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3241",
+    "length": 6,
+    "description": "Width, diameter, or second dimension, inches (variable measure trade item)",
+    "dataTitle": "WIDTH (in)",
+    "fnc1": false,
+    "decimals": 1,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3242",
+    "length": 6,
+    "description": "Width, diameter, or second dimension, inches (variable measure trade item)",
+    "dataTitle": "WIDTH (in)",
+    "fnc1": false,
+    "decimals": 2,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3243",
+    "length": 6,
+    "description": "Width, diameter, or second dimension, inches (variable measure trade item)",
+    "dataTitle": "WIDTH (in)",
+    "fnc1": false,
+    "decimals": 3,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3244",
+    "length": 6,
+    "description": "Width, diameter, or second dimension, inches (variable measure trade item)",
+    "dataTitle": "WIDTH (in)",
+    "fnc1": false,
+    "decimals": 4,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3245",
+    "length": 6,
+    "description": "Width, diameter, or second dimension, inches (variable measure trade item)",
+    "dataTitle": "WIDTH (in)",
+    "fnc1": false,
+    "decimals": 5,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3250",
+    "length": 6,
+    "description": "Width, diameter, or second dimension, feet (variable measure trade item)",
+    "dataTitle": "WIDTH (ft)",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3251",
+    "length": 6,
+    "description": "Width, diameter, or second dimension, feet (variable measure trade item)",
+    "dataTitle": "WIDTH (ft)",
+    "fnc1": false,
+    "decimals": 1,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3252",
+    "length": 6,
+    "description": "Width, diameter, or second dimension, feet (variable measure trade item)",
+    "dataTitle": "WIDTH (ft)",
+    "fnc1": false,
+    "decimals": 2,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3253",
+    "length": 6,
+    "description": "Width, diameter, or second dimension, feet (variable measure trade item)",
+    "dataTitle": "WIDTH (ft)",
+    "fnc1": false,
+    "decimals": 3,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3254",
+    "length": 6,
+    "description": "Width, diameter, or second dimension, feet (variable measure trade item)",
+    "dataTitle": "WIDTH (ft)",
+    "fnc1": false,
+    "decimals": 4,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3255",
+    "length": 6,
+    "description": "Width, diameter, or second dimension, feet (variable measure trade item)",
+    "dataTitle": "WIDTH (ft)",
+    "fnc1": false,
+    "decimals": 5,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3260",
+    "length": 6,
+    "description": "Width, diameter, or second dimension, yards (variable measure trade item)",
+    "dataTitle": "WIDTH (yd)",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3261",
+    "length": 6,
+    "description": "Width, diameter, or second dimension, yards (variable measure trade item)",
+    "dataTitle": "WIDTH (yd)",
+    "fnc1": false,
+    "decimals": 1,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3262",
+    "length": 6,
+    "description": "Width, diameter, or second dimension, yards (variable measure trade item)",
+    "dataTitle": "WIDTH (yd)",
+    "fnc1": false,
+    "decimals": 2,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3263",
+    "length": 6,
+    "description": "Width, diameter, or second dimension, yards (variable measure trade item)",
+    "dataTitle": "WIDTH (yd)",
+    "fnc1": false,
+    "decimals": 3,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3264",
+    "length": 6,
+    "description": "Width, diameter, or second dimension, yards (variable measure trade item)",
+    "dataTitle": "WIDTH (yd)",
+    "fnc1": false,
+    "decimals": 4,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3265",
+    "length": 6,
+    "description": "Width, diameter, or second dimension, yards (variable measure trade item)",
+    "dataTitle": "WIDTH (yd)",
+    "fnc1": false,
+    "decimals": 5,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3270",
+    "length": 6,
+    "description": "Depth, thickness, height, or third dimension, inches (variable measure trade item)",
+    "dataTitle": "HEIGHT (in)",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3271",
+    "length": 6,
+    "description": "Depth, thickness, height, or third dimension, inches (variable measure trade item)",
+    "dataTitle": "HEIGHT (in)",
+    "fnc1": false,
+    "decimals": 1,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3272",
+    "length": 6,
+    "description": "Depth, thickness, height, or third dimension, inches (variable measure trade item)",
+    "dataTitle": "HEIGHT (in)",
+    "fnc1": false,
+    "decimals": 2,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3273",
+    "length": 6,
+    "description": "Depth, thickness, height, or third dimension, inches (variable measure trade item)",
+    "dataTitle": "HEIGHT (in)",
+    "fnc1": false,
+    "decimals": 3,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3274",
+    "length": 6,
+    "description": "Depth, thickness, height, or third dimension, inches (variable measure trade item)",
+    "dataTitle": "HEIGHT (in)",
+    "fnc1": false,
+    "decimals": 4,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3275",
+    "length": 6,
+    "description": "Depth, thickness, height, or third dimension, inches (variable measure trade item)",
+    "dataTitle": "HEIGHT (in)",
+    "fnc1": false,
+    "decimals": 5,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3280",
+    "length": 6,
+    "description": "Depth, thickness, height, or third dimension, feet (variable measure trade item)",
+    "dataTitle": "HEIGHT (ft)",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3281",
+    "length": 6,
+    "description": "Depth, thickness, height, or third dimension, feet (variable measure trade item)",
+    "dataTitle": "HEIGHT (ft)",
+    "fnc1": false,
+    "decimals": 1,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3282",
+    "length": 6,
+    "description": "Depth, thickness, height, or third dimension, feet (variable measure trade item)",
+    "dataTitle": "HEIGHT (ft)",
+    "fnc1": false,
+    "decimals": 2,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3283",
+    "length": 6,
+    "description": "Depth, thickness, height, or third dimension, feet (variable measure trade item)",
+    "dataTitle": "HEIGHT (ft)",
+    "fnc1": false,
+    "decimals": 3,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3284",
+    "length": 6,
+    "description": "Depth, thickness, height, or third dimension, feet (variable measure trade item)",
+    "dataTitle": "HEIGHT (ft)",
+    "fnc1": false,
+    "decimals": 4,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3285",
+    "length": 6,
+    "description": "Depth, thickness, height, or third dimension, feet (variable measure trade item)",
+    "dataTitle": "HEIGHT (ft)",
+    "fnc1": false,
+    "decimals": 5,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3290",
+    "length": 6,
+    "description": "Depth, thickness, height, or third dimension, yards (variable measure trade item)",
+    "dataTitle": "HEIGHT (yd)",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3291",
+    "length": 6,
+    "description": "Depth, thickness, height, or third dimension, yards (variable measure trade item)",
+    "dataTitle": "HEIGHT (yd)",
+    "fnc1": false,
+    "decimals": 1,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3292",
+    "length": 6,
+    "description": "Depth, thickness, height, or third dimension, yards (variable measure trade item)",
+    "dataTitle": "HEIGHT (yd)",
+    "fnc1": false,
+    "decimals": 2,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3293",
+    "length": 6,
+    "description": "Depth, thickness, height, or third dimension, yards (variable measure trade item)",
+    "dataTitle": "HEIGHT (yd)",
+    "fnc1": false,
+    "decimals": 3,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3294",
+    "length": 6,
+    "description": "Depth, thickness, height, or third dimension, yards (variable measure trade item)",
+    "dataTitle": "HEIGHT (yd)",
+    "fnc1": false,
+    "decimals": 4,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3295",
+    "length": 6,
+    "description": "Depth, thickness, height, or third dimension, yards (variable measure trade item)",
+    "dataTitle": "HEIGHT (yd)",
+    "fnc1": false,
+    "decimals": 5,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3300",
+    "length": 6,
+    "description": "Logistic weight, kilograms",
+    "dataTitle": "GROSS WEIGHT (kg)",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3301",
+    "length": 6,
+    "description": "Logistic weight, kilograms",
+    "dataTitle": "GROSS WEIGHT (kg)",
+    "fnc1": false,
+    "decimals": 1,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3302",
+    "length": 6,
+    "description": "Logistic weight, kilograms",
+    "dataTitle": "GROSS WEIGHT (kg)",
+    "fnc1": false,
+    "decimals": 2,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3303",
+    "length": 6,
+    "description": "Logistic weight, kilograms",
+    "dataTitle": "GROSS WEIGHT (kg)",
+    "fnc1": false,
+    "decimals": 3,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3304",
+    "length": 6,
+    "description": "Logistic weight, kilograms",
+    "dataTitle": "GROSS WEIGHT (kg)",
+    "fnc1": false,
+    "decimals": 4,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3305",
+    "length": 6,
+    "description": "Logistic weight, kilograms",
+    "dataTitle": "GROSS WEIGHT (kg)",
+    "fnc1": false,
+    "decimals": 5,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3310",
+    "length": 6,
+    "description": "Length or first dimension, metres",
+    "dataTitle": "LENGTH (m), log",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3311",
+    "length": 6,
+    "description": "Length or first dimension, metres",
+    "dataTitle": "LENGTH (m), log",
+    "fnc1": false,
+    "decimals": 1,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3312",
+    "length": 6,
+    "description": "Length or first dimension, metres",
+    "dataTitle": "LENGTH (m), log",
+    "fnc1": false,
+    "decimals": 2,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3313",
+    "length": 6,
+    "description": "Length or first dimension, metres",
+    "dataTitle": "LENGTH (m), log",
+    "fnc1": false,
+    "decimals": 3,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3314",
+    "length": 6,
+    "description": "Length or first dimension, metres",
+    "dataTitle": "LENGTH (m), log",
+    "fnc1": false,
+    "decimals": 4,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3315",
+    "length": 6,
+    "description": "Length or first dimension, metres",
+    "dataTitle": "LENGTH (m), log",
+    "fnc1": false,
+    "decimals": 5,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3320",
+    "length": 6,
+    "description": "Width, diameter, or second dimension, metres",
+    "dataTitle": "WIDTH (m), log",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3321",
+    "length": 6,
+    "description": "Width, diameter, or second dimension, metres",
+    "dataTitle": "WIDTH (m), log",
+    "fnc1": false,
+    "decimals": 1,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3322",
+    "length": 6,
+    "description": "Width, diameter, or second dimension, metres",
+    "dataTitle": "WIDTH (m), log",
+    "fnc1": false,
+    "decimals": 2,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3323",
+    "length": 6,
+    "description": "Width, diameter, or second dimension, metres",
+    "dataTitle": "WIDTH (m), log",
+    "fnc1": false,
+    "decimals": 3,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3324",
+    "length": 6,
+    "description": "Width, diameter, or second dimension, metres",
+    "dataTitle": "WIDTH (m), log",
+    "fnc1": false,
+    "decimals": 4,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3325",
+    "length": 6,
+    "description": "Width, diameter, or second dimension, metres",
+    "dataTitle": "WIDTH (m), log",
+    "fnc1": false,
+    "decimals": 5,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3330",
+    "length": 6,
+    "description": "Depth, thickness, height, or third dimension, metres",
+    "dataTitle": "HEIGHT (m), log",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3331",
+    "length": 6,
+    "description": "Depth, thickness, height, or third dimension, metres",
+    "dataTitle": "HEIGHT (m), log",
+    "fnc1": false,
+    "decimals": 1,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3332",
+    "length": 6,
+    "description": "Depth, thickness, height, or third dimension, metres",
+    "dataTitle": "HEIGHT (m), log",
+    "fnc1": false,
+    "decimals": 2,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3333",
+    "length": 6,
+    "description": "Depth, thickness, height, or third dimension, metres",
+    "dataTitle": "HEIGHT (m), log",
+    "fnc1": false,
+    "decimals": 3,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3334",
+    "length": 6,
+    "description": "Depth, thickness, height, or third dimension, metres",
+    "dataTitle": "HEIGHT (m), log",
+    "fnc1": false,
+    "decimals": 4,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3335",
+    "length": 6,
+    "description": "Depth, thickness, height, or third dimension, metres",
+    "dataTitle": "HEIGHT (m), log",
+    "fnc1": false,
+    "decimals": 5,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3340",
+    "length": 6,
+    "description": "Area, square metres",
+    "dataTitle": "AREA (m2), log",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3341",
+    "length": 6,
+    "description": "Area, square metres",
+    "dataTitle": "AREA (m2), log",
+    "fnc1": false,
+    "decimals": 1,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3342",
+    "length": 6,
+    "description": "Area, square metres",
+    "dataTitle": "AREA (m2), log",
+    "fnc1": false,
+    "decimals": 2,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3343",
+    "length": 6,
+    "description": "Area, square metres",
+    "dataTitle": "AREA (m2), log",
+    "fnc1": false,
+    "decimals": 3,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3344",
+    "length": 6,
+    "description": "Area, square metres",
+    "dataTitle": "AREA (m2), log",
+    "fnc1": false,
+    "decimals": 4,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3345",
+    "length": 6,
+    "description": "Area, square metres",
+    "dataTitle": "AREA (m2), log",
+    "fnc1": false,
+    "decimals": 5,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3350",
+    "length": 6,
+    "description": "Logistic volume, litres",
+    "dataTitle": "VOLUME (l), log",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3351",
+    "length": 6,
+    "description": "Logistic volume, litres",
+    "dataTitle": "VOLUME (l), log",
+    "fnc1": false,
+    "decimals": 1,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3352",
+    "length": 6,
+    "description": "Logistic volume, litres",
+    "dataTitle": "VOLUME (l), log",
+    "fnc1": false,
+    "decimals": 2,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3353",
+    "length": 6,
+    "description": "Logistic volume, litres",
+    "dataTitle": "VOLUME (l), log",
+    "fnc1": false,
+    "decimals": 3,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3354",
+    "length": 6,
+    "description": "Logistic volume, litres",
+    "dataTitle": "VOLUME (l), log",
+    "fnc1": false,
+    "decimals": 4,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3355",
+    "length": 6,
+    "description": "Logistic volume, litres",
+    "dataTitle": "VOLUME (l), log",
+    "fnc1": false,
+    "decimals": 5,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3360",
+    "length": 6,
+    "description": "Logistic volume, cubic metres",
+    "dataTitle": "VOLUME (m3), log",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3361",
+    "length": 6,
+    "description": "Logistic volume, cubic metres",
+    "dataTitle": "VOLUME (m3), log",
+    "fnc1": false,
+    "decimals": 1,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3362",
+    "length": 6,
+    "description": "Logistic volume, cubic metres",
+    "dataTitle": "VOLUME (m3), log",
+    "fnc1": false,
+    "decimals": 2,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3363",
+    "length": 6,
+    "description": "Logistic volume, cubic metres",
+    "dataTitle": "VOLUME (m3), log",
+    "fnc1": false,
+    "decimals": 3,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3364",
+    "length": 6,
+    "description": "Logistic volume, cubic metres",
+    "dataTitle": "VOLUME (m3), log",
+    "fnc1": false,
+    "decimals": 4,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3365",
+    "length": 6,
+    "description": "Logistic volume, cubic metres",
+    "dataTitle": "VOLUME (m3), log",
+    "fnc1": false,
+    "decimals": 5,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3370",
+    "length": 6,
+    "description": "Kilograms per square metre",
+    "dataTitle": "KG PER m2",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3371",
+    "length": 6,
+    "description": "Kilograms per square metre",
+    "dataTitle": "KG PER m2",
+    "fnc1": false,
+    "decimals": 1,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3372",
+    "length": 6,
+    "description": "Kilograms per square metre",
+    "dataTitle": "KG PER m2",
+    "fnc1": false,
+    "decimals": 2,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3373",
+    "length": 6,
+    "description": "Kilograms per square metre",
+    "dataTitle": "KG PER m2",
+    "fnc1": false,
+    "decimals": 3,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3374",
+    "length": 6,
+    "description": "Kilograms per square metre",
+    "dataTitle": "KG PER m2",
+    "fnc1": false,
+    "decimals": 4,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3375",
+    "length": 6,
+    "description": "Kilograms per square metre",
+    "dataTitle": "KG PER m2",
+    "fnc1": false,
+    "decimals": 5,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3400",
+    "length": 6,
+    "description": "Logistic weight, pounds",
+    "dataTitle": "GROSS WEIGHT (lb)",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3401",
+    "length": 6,
+    "description": "Logistic weight, pounds",
+    "dataTitle": "GROSS WEIGHT (lb)",
+    "fnc1": false,
+    "decimals": 1,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3402",
+    "length": 6,
+    "description": "Logistic weight, pounds",
+    "dataTitle": "GROSS WEIGHT (lb)",
+    "fnc1": false,
+    "decimals": 2,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3403",
+    "length": 6,
+    "description": "Logistic weight, pounds",
+    "dataTitle": "GROSS WEIGHT (lb)",
+    "fnc1": false,
+    "decimals": 3,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3404",
+    "length": 6,
+    "description": "Logistic weight, pounds",
+    "dataTitle": "GROSS WEIGHT (lb)",
+    "fnc1": false,
+    "decimals": 4,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3405",
+    "length": 6,
+    "description": "Logistic weight, pounds",
+    "dataTitle": "GROSS WEIGHT (lb)",
+    "fnc1": false,
+    "decimals": 5,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3410",
+    "length": 6,
+    "description": "Length or first dimension, inches",
+    "dataTitle": "LENGTH (in), log",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3411",
+    "length": 6,
+    "description": "Length or first dimension, inches",
+    "dataTitle": "LENGTH (in), log",
+    "fnc1": false,
+    "decimals": 1,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3412",
+    "length": 6,
+    "description": "Length or first dimension, inches",
+    "dataTitle": "LENGTH (in), log",
+    "fnc1": false,
+    "decimals": 2,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3413",
+    "length": 6,
+    "description": "Length or first dimension, inches",
+    "dataTitle": "LENGTH (in), log",
+    "fnc1": false,
+    "decimals": 3,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3414",
+    "length": 6,
+    "description": "Length or first dimension, inches",
+    "dataTitle": "LENGTH (in), log",
+    "fnc1": false,
+    "decimals": 4,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3415",
+    "length": 6,
+    "description": "Length or first dimension, inches",
+    "dataTitle": "LENGTH (in), log",
+    "fnc1": false,
+    "decimals": 5,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3420",
+    "length": 6,
+    "description": "Length or first dimension, feet",
+    "dataTitle": "LENGTH (ft), log",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3421",
+    "length": 6,
+    "description": "Length or first dimension, feet",
+    "dataTitle": "LENGTH (ft), log",
+    "fnc1": false,
+    "decimals": 1,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3422",
+    "length": 6,
+    "description": "Length or first dimension, feet",
+    "dataTitle": "LENGTH (ft), log",
+    "fnc1": false,
+    "decimals": 2,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3423",
+    "length": 6,
+    "description": "Length or first dimension, feet",
+    "dataTitle": "LENGTH (ft), log",
+    "fnc1": false,
+    "decimals": 3,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3424",
+    "length": 6,
+    "description": "Length or first dimension, feet",
+    "dataTitle": "LENGTH (ft), log",
+    "fnc1": false,
+    "decimals": 4,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3425",
+    "length": 6,
+    "description": "Length or first dimension, feet",
+    "dataTitle": "LENGTH (ft), log",
+    "fnc1": false,
+    "decimals": 5,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3430",
+    "length": 6,
+    "description": "Length or first dimension, yards",
+    "dataTitle": "LENGTH (yd), log",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3431",
+    "length": 6,
+    "description": "Length or first dimension, yards",
+    "dataTitle": "LENGTH (yd), log",
+    "fnc1": false,
+    "decimals": 1,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3432",
+    "length": 6,
+    "description": "Length or first dimension, yards",
+    "dataTitle": "LENGTH (yd), log",
+    "fnc1": false,
+    "decimals": 2,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3433",
+    "length": 6,
+    "description": "Length or first dimension, yards",
+    "dataTitle": "LENGTH (yd), log",
+    "fnc1": false,
+    "decimals": 3,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3434",
+    "length": 6,
+    "description": "Length or first dimension, yards",
+    "dataTitle": "LENGTH (yd), log",
+    "fnc1": false,
+    "decimals": 4,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3435",
+    "length": 6,
+    "description": "Length or first dimension, yards",
+    "dataTitle": "LENGTH (yd), log",
+    "fnc1": false,
+    "decimals": 5,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3440",
+    "length": 6,
+    "description": "Width, diameter, or second dimension, inches",
+    "dataTitle": "WIDTH (in), log",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3441",
+    "length": 6,
+    "description": "Width, diameter, or second dimension, inches",
+    "dataTitle": "WIDTH (in), log",
+    "fnc1": false,
+    "decimals": 1,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3442",
+    "length": 6,
+    "description": "Width, diameter, or second dimension, inches",
+    "dataTitle": "WIDTH (in), log",
+    "fnc1": false,
+    "decimals": 2,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3443",
+    "length": 6,
+    "description": "Width, diameter, or second dimension, inches",
+    "dataTitle": "WIDTH (in), log",
+    "fnc1": false,
+    "decimals": 3,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3444",
+    "length": 6,
+    "description": "Width, diameter, or second dimension, inches",
+    "dataTitle": "WIDTH (in), log",
+    "fnc1": false,
+    "decimals": 4,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3445",
+    "length": 6,
+    "description": "Width, diameter, or second dimension, inches",
+    "dataTitle": "WIDTH (in), log",
+    "fnc1": false,
+    "decimals": 5,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3450",
+    "length": 6,
+    "description": "Width, diameter, or second dimension, feet",
+    "dataTitle": "WIDTH (ft), log",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3451",
+    "length": 6,
+    "description": "Width, diameter, or second dimension, feet",
+    "dataTitle": "WIDTH (ft), log",
+    "fnc1": false,
+    "decimals": 1,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3452",
+    "length": 6,
+    "description": "Width, diameter, or second dimension, feet",
+    "dataTitle": "WIDTH (ft), log",
+    "fnc1": false,
+    "decimals": 2,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3453",
+    "length": 6,
+    "description": "Width, diameter, or second dimension, feet",
+    "dataTitle": "WIDTH (ft), log",
+    "fnc1": false,
+    "decimals": 3,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3454",
+    "length": 6,
+    "description": "Width, diameter, or second dimension, feet",
+    "dataTitle": "WIDTH (ft), log",
+    "fnc1": false,
+    "decimals": 4,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3455",
+    "length": 6,
+    "description": "Width, diameter, or second dimension, feet",
+    "dataTitle": "WIDTH (ft), log",
+    "fnc1": false,
+    "decimals": 5,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3460",
+    "length": 6,
+    "description": "Width, diameter, or second dimension, yard",
+    "dataTitle": "WIDTH (yd), log",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3461",
+    "length": 6,
+    "description": "Width, diameter, or second dimension, yard",
+    "dataTitle": "WIDTH (yd), log",
+    "fnc1": false,
+    "decimals": 1,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3462",
+    "length": 6,
+    "description": "Width, diameter, or second dimension, yard",
+    "dataTitle": "WIDTH (yd), log",
+    "fnc1": false,
+    "decimals": 2,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3463",
+    "length": 6,
+    "description": "Width, diameter, or second dimension, yard",
+    "dataTitle": "WIDTH (yd), log",
+    "fnc1": false,
+    "decimals": 3,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3464",
+    "length": 6,
+    "description": "Width, diameter, or second dimension, yard",
+    "dataTitle": "WIDTH (yd), log",
+    "fnc1": false,
+    "decimals": 4,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3465",
+    "length": 6,
+    "description": "Width, diameter, or second dimension, yard",
+    "dataTitle": "WIDTH (yd), log",
+    "fnc1": false,
+    "decimals": 5,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3470",
+    "length": 6,
+    "description": "Depth, thickness, height, or third dimension, inches",
+    "dataTitle": "HEIGHT (in), log",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3471",
+    "length": 6,
+    "description": "Depth, thickness, height, or third dimension, inches",
+    "dataTitle": "HEIGHT (in), log",
+    "fnc1": false,
+    "decimals": 1,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3472",
+    "length": 6,
+    "description": "Depth, thickness, height, or third dimension, inches",
+    "dataTitle": "HEIGHT (in), log",
+    "fnc1": false,
+    "decimals": 2,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3473",
+    "length": 6,
+    "description": "Depth, thickness, height, or third dimension, inches",
+    "dataTitle": "HEIGHT (in), log",
+    "fnc1": false,
+    "decimals": 3,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3474",
+    "length": 6,
+    "description": "Depth, thickness, height, or third dimension, inches",
+    "dataTitle": "HEIGHT (in), log",
+    "fnc1": false,
+    "decimals": 4,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3475",
+    "length": 6,
+    "description": "Depth, thickness, height, or third dimension, inches",
+    "dataTitle": "HEIGHT (in), log",
+    "fnc1": false,
+    "decimals": 5,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3480",
+    "length": 6,
+    "description": "Depth, thickness, height, or third dimension, feet",
+    "dataTitle": "HEIGHT (ft), log",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3481",
+    "length": 6,
+    "description": "Depth, thickness, height, or third dimension, feet",
+    "dataTitle": "HEIGHT (ft), log",
+    "fnc1": false,
+    "decimals": 1,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3482",
+    "length": 6,
+    "description": "Depth, thickness, height, or third dimension, feet",
+    "dataTitle": "HEIGHT (ft), log",
+    "fnc1": false,
+    "decimals": 2,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3483",
+    "length": 6,
+    "description": "Depth, thickness, height, or third dimension, feet",
+    "dataTitle": "HEIGHT (ft), log",
+    "fnc1": false,
+    "decimals": 3,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3484",
+    "length": 6,
+    "description": "Depth, thickness, height, or third dimension, feet",
+    "dataTitle": "HEIGHT (ft), log",
+    "fnc1": false,
+    "decimals": 4,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3485",
+    "length": 6,
+    "description": "Depth, thickness, height, or third dimension, feet",
+    "dataTitle": "HEIGHT (ft), log",
+    "fnc1": false,
+    "decimals": 5,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3490",
+    "length": 6,
+    "description": "Depth, thickness, height, or third dimension, yards",
+    "dataTitle": "HEIGHT (yd), log",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3491",
+    "length": 6,
+    "description": "Depth, thickness, height, or third dimension, yards",
+    "dataTitle": "HEIGHT (yd), log",
+    "fnc1": false,
+    "decimals": 1,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3492",
+    "length": 6,
+    "description": "Depth, thickness, height, or third dimension, yards",
+    "dataTitle": "HEIGHT (yd), log",
+    "fnc1": false,
+    "decimals": 2,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3493",
+    "length": 6,
+    "description": "Depth, thickness, height, or third dimension, yards",
+    "dataTitle": "HEIGHT (yd), log",
+    "fnc1": false,
+    "decimals": 3,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3494",
+    "length": 6,
+    "description": "Depth, thickness, height, or third dimension, yards",
+    "dataTitle": "HEIGHT (yd), log",
+    "fnc1": false,
+    "decimals": 4,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3495",
+    "length": 6,
+    "description": "Depth, thickness, height, or third dimension, yards",
+    "dataTitle": "HEIGHT (yd), log",
+    "fnc1": false,
+    "decimals": 5,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3500",
+    "length": 6,
+    "description": "Area, square inches (variable measure trade item)",
+    "dataTitle": "AREA (in2)",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3501",
+    "length": 6,
+    "description": "Area, square inches (variable measure trade item)",
+    "dataTitle": "AREA (in2)",
+    "fnc1": false,
+    "decimals": 1,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3502",
+    "length": 6,
+    "description": "Area, square inches (variable measure trade item)",
+    "dataTitle": "AREA (in2)",
+    "fnc1": false,
+    "decimals": 2,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3503",
+    "length": 6,
+    "description": "Area, square inches (variable measure trade item)",
+    "dataTitle": "AREA (in2)",
+    "fnc1": false,
+    "decimals": 3,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3504",
+    "length": 6,
+    "description": "Area, square inches (variable measure trade item)",
+    "dataTitle": "AREA (in2)",
+    "fnc1": false,
+    "decimals": 4,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3505",
+    "length": 6,
+    "description": "Area, square inches (variable measure trade item)",
+    "dataTitle": "AREA (in2)",
+    "fnc1": false,
+    "decimals": 5,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3510",
+    "length": 6,
+    "description": "Area, square feet (variable measure trade item)",
+    "dataTitle": "AREA (ft2)",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3511",
+    "length": 6,
+    "description": "Area, square feet (variable measure trade item)",
+    "dataTitle": "AREA (ft2)",
+    "fnc1": false,
+    "decimals": 1,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3512",
+    "length": 6,
+    "description": "Area, square feet (variable measure trade item)",
+    "dataTitle": "AREA (ft2)",
+    "fnc1": false,
+    "decimals": 2,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3513",
+    "length": 6,
+    "description": "Area, square feet (variable measure trade item)",
+    "dataTitle": "AREA (ft2)",
+    "fnc1": false,
+    "decimals": 3,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3514",
+    "length": 6,
+    "description": "Area, square feet (variable measure trade item)",
+    "dataTitle": "AREA (ft2)",
+    "fnc1": false,
+    "decimals": 4,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3515",
+    "length": 6,
+    "description": "Area, square feet (variable measure trade item)",
+    "dataTitle": "AREA (ft2)",
+    "fnc1": false,
+    "decimals": 5,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3520",
+    "length": 6,
+    "description": "Area, square yards (variable measure trade item)",
+    "dataTitle": "AREA (yd2)",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3521",
+    "length": 6,
+    "description": "Area, square yards (variable measure trade item)",
+    "dataTitle": "AREA (yd2)",
+    "fnc1": false,
+    "decimals": 1,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3522",
+    "length": 6,
+    "description": "Area, square yards (variable measure trade item)",
+    "dataTitle": "AREA (yd2)",
+    "fnc1": false,
+    "decimals": 2,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3523",
+    "length": 6,
+    "description": "Area, square yards (variable measure trade item)",
+    "dataTitle": "AREA (yd2)",
+    "fnc1": false,
+    "decimals": 3,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3524",
+    "length": 6,
+    "description": "Area, square yards (variable measure trade item)",
+    "dataTitle": "AREA (yd2)",
+    "fnc1": false,
+    "decimals": 4,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3525",
+    "length": 6,
+    "description": "Area, square yards (variable measure trade item)",
+    "dataTitle": "AREA (yd2)",
+    "fnc1": false,
+    "decimals": 5,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3530",
+    "length": 6,
+    "description": "Area, square inches",
+    "dataTitle": "AREA (in2), log",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3531",
+    "length": 6,
+    "description": "Area, square inches",
+    "dataTitle": "AREA (in2), log",
+    "fnc1": false,
+    "decimals": 1,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3532",
+    "length": 6,
+    "description": "Area, square inches",
+    "dataTitle": "AREA (in2), log",
+    "fnc1": false,
+    "decimals": 2,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3533",
+    "length": 6,
+    "description": "Area, square inches",
+    "dataTitle": "AREA (in2), log",
+    "fnc1": false,
+    "decimals": 3,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3534",
+    "length": 6,
+    "description": "Area, square inches",
+    "dataTitle": "AREA (in2), log",
+    "fnc1": false,
+    "decimals": 4,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3535",
+    "length": 6,
+    "description": "Area, square inches",
+    "dataTitle": "AREA (in2), log",
+    "fnc1": false,
+    "decimals": 5,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3540",
+    "length": 6,
+    "description": "Area, square feet",
+    "dataTitle": "AREA (ft2), log",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3541",
+    "length": 6,
+    "description": "Area, square feet",
+    "dataTitle": "AREA (ft2), log",
+    "fnc1": false,
+    "decimals": 1,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3542",
+    "length": 6,
+    "description": "Area, square feet",
+    "dataTitle": "AREA (ft2), log",
+    "fnc1": false,
+    "decimals": 2,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3543",
+    "length": 6,
+    "description": "Area, square feet",
+    "dataTitle": "AREA (ft2), log",
+    "fnc1": false,
+    "decimals": 3,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3544",
+    "length": 6,
+    "description": "Area, square feet",
+    "dataTitle": "AREA (ft2), log",
+    "fnc1": false,
+    "decimals": 4,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3545",
+    "length": 6,
+    "description": "Area, square feet",
+    "dataTitle": "AREA (ft2), log",
+    "fnc1": false,
+    "decimals": 5,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3550",
+    "length": 6,
+    "description": "Area, square yards",
+    "dataTitle": "AREA (yd2), log",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3551",
+    "length": 6,
+    "description": "Area, square yards",
+    "dataTitle": "AREA (yd2), log",
+    "fnc1": false,
+    "decimals": 1,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3552",
+    "length": 6,
+    "description": "Area, square yards",
+    "dataTitle": "AREA (yd2), log",
+    "fnc1": false,
+    "decimals": 2,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3553",
+    "length": 6,
+    "description": "Area, square yards",
+    "dataTitle": "AREA (yd2), log",
+    "fnc1": false,
+    "decimals": 3,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3554",
+    "length": 6,
+    "description": "Area, square yards",
+    "dataTitle": "AREA (yd2), log",
+    "fnc1": false,
+    "decimals": 4,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3555",
+    "length": 6,
+    "description": "Area, square yards",
+    "dataTitle": "AREA (yd2), log",
+    "fnc1": false,
+    "decimals": 5,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3560",
+    "length": 6,
+    "description": "Net weight, troy ounces (variable measure trade item)",
+    "dataTitle": "NET WEIGHT (t oz)",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3561",
+    "length": 6,
+    "description": "Net weight, troy ounces (variable measure trade item)",
+    "dataTitle": "NET WEIGHT (t oz)",
+    "fnc1": false,
+    "decimals": 1,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3562",
+    "length": 6,
+    "description": "Net weight, troy ounces (variable measure trade item)",
+    "dataTitle": "NET WEIGHT (t oz)",
+    "fnc1": false,
+    "decimals": 2,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3563",
+    "length": 6,
+    "description": "Net weight, troy ounces (variable measure trade item)",
+    "dataTitle": "NET WEIGHT (t oz)",
+    "fnc1": false,
+    "decimals": 3,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3564",
+    "length": 6,
+    "description": "Net weight, troy ounces (variable measure trade item)",
+    "dataTitle": "NET WEIGHT (t oz)",
+    "fnc1": false,
+    "decimals": 4,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3565",
+    "length": 6,
+    "description": "Net weight, troy ounces (variable measure trade item)",
+    "dataTitle": "NET WEIGHT (t oz)",
+    "fnc1": false,
+    "decimals": 5,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3570",
+    "length": 6,
+    "description": "Net weight (or volume), ounces (variable measure trade item)",
+    "dataTitle": "NET VOLUME (oz)",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3571",
+    "length": 6,
+    "description": "Net weight (or volume), ounces (variable measure trade item)",
+    "dataTitle": "NET VOLUME (oz)",
+    "fnc1": false,
+    "decimals": 1,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3572",
+    "length": 6,
+    "description": "Net weight (or volume), ounces (variable measure trade item)",
+    "dataTitle": "NET VOLUME (oz)",
+    "fnc1": false,
+    "decimals": 2,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3573",
+    "length": 6,
+    "description": "Net weight (or volume), ounces (variable measure trade item)",
+    "dataTitle": "NET VOLUME (oz)",
+    "fnc1": false,
+    "decimals": 3,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3574",
+    "length": 6,
+    "description": "Net weight (or volume), ounces (variable measure trade item)",
+    "dataTitle": "NET VOLUME (oz)",
+    "fnc1": false,
+    "decimals": 4,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3575",
+    "length": 6,
+    "description": "Net weight (or volume), ounces (variable measure trade item)",
+    "dataTitle": "NET VOLUME (oz)",
+    "fnc1": false,
+    "decimals": 5,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3600",
+    "length": 6,
+    "description": "Net volume, quarts (variable measure trade item)",
+    "dataTitle": "NET VOLUME (qt)",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3601",
+    "length": 6,
+    "description": "Net volume, quarts (variable measure trade item)",
+    "dataTitle": "NET VOLUME (qt)",
+    "fnc1": false,
+    "decimals": 1,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3602",
+    "length": 6,
+    "description": "Net volume, quarts (variable measure trade item)",
+    "dataTitle": "NET VOLUME (qt)",
+    "fnc1": false,
+    "decimals": 2,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3603",
+    "length": 6,
+    "description": "Net volume, quarts (variable measure trade item)",
+    "dataTitle": "NET VOLUME (qt)",
+    "fnc1": false,
+    "decimals": 3,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3604",
+    "length": 6,
+    "description": "Net volume, quarts (variable measure trade item)",
+    "dataTitle": "NET VOLUME (qt)",
+    "fnc1": false,
+    "decimals": 4,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3605",
+    "length": 6,
+    "description": "Net volume, quarts (variable measure trade item)",
+    "dataTitle": "NET VOLUME (qt)",
+    "fnc1": false,
+    "decimals": 5,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3610",
+    "length": 6,
+    "description": "Net volume, gallons U.S. (variable measure trade item)",
+    "dataTitle": "NET VOLUME (gal.)",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3611",
+    "length": 6,
+    "description": "Net volume, gallons U.S. (variable measure trade item)",
+    "dataTitle": "NET VOLUME (gal.)",
+    "fnc1": false,
+    "decimals": 1,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3612",
+    "length": 6,
+    "description": "Net volume, gallons U.S. (variable measure trade item)",
+    "dataTitle": "NET VOLUME (gal.)",
+    "fnc1": false,
+    "decimals": 2,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3613",
+    "length": 6,
+    "description": "Net volume, gallons U.S. (variable measure trade item)",
+    "dataTitle": "NET VOLUME (gal.)",
+    "fnc1": false,
+    "decimals": 3,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3614",
+    "length": 6,
+    "description": "Net volume, gallons U.S. (variable measure trade item)",
+    "dataTitle": "NET VOLUME (gal.)",
+    "fnc1": false,
+    "decimals": 4,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3615",
+    "length": 6,
+    "description": "Net volume, gallons U.S. (variable measure trade item)",
+    "dataTitle": "NET VOLUME (gal.)",
+    "fnc1": false,
+    "decimals": 5,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3620",
+    "length": 6,
+    "description": "Logistic volume, quarts",
+    "dataTitle": "VOLUME (qt), log",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3621",
+    "length": 6,
+    "description": "Logistic volume, quarts",
+    "dataTitle": "VOLUME (qt), log",
+    "fnc1": false,
+    "decimals": 1,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3622",
+    "length": 6,
+    "description": "Logistic volume, quarts",
+    "dataTitle": "VOLUME (qt), log",
+    "fnc1": false,
+    "decimals": 2,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3623",
+    "length": 6,
+    "description": "Logistic volume, quarts",
+    "dataTitle": "VOLUME (qt), log",
+    "fnc1": false,
+    "decimals": 3,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3624",
+    "length": 6,
+    "description": "Logistic volume, quarts",
+    "dataTitle": "VOLUME (qt), log",
+    "fnc1": false,
+    "decimals": 4,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3625",
+    "length": 6,
+    "description": "Logistic volume, quarts",
+    "dataTitle": "VOLUME (qt), log",
+    "fnc1": false,
+    "decimals": 5,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3630",
+    "length": 6,
+    "description": "Logistic volume, gallons U.S.",
+    "dataTitle": "VOLUME (gal.), log",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3631",
+    "length": 6,
+    "description": "Logistic volume, gallons U.S.",
+    "dataTitle": "VOLUME (gal.), log",
+    "fnc1": false,
+    "decimals": 1,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3632",
+    "length": 6,
+    "description": "Logistic volume, gallons U.S.",
+    "dataTitle": "VOLUME (gal.), log",
+    "fnc1": false,
+    "decimals": 2,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3633",
+    "length": 6,
+    "description": "Logistic volume, gallons U.S.",
+    "dataTitle": "VOLUME (gal.), log",
+    "fnc1": false,
+    "decimals": 3,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3634",
+    "length": 6,
+    "description": "Logistic volume, gallons U.S.",
+    "dataTitle": "VOLUME (gal.), log",
+    "fnc1": false,
+    "decimals": 4,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3635",
+    "length": 6,
+    "description": "Logistic volume, gallons U.S.",
+    "dataTitle": "VOLUME (gal.), log",
+    "fnc1": false,
+    "decimals": 5,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3640",
+    "length": 6,
+    "description": "Net volume, cubic inches (variable measure trade item)",
+    "dataTitle": "VOLUME (in3)",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3641",
+    "length": 6,
+    "description": "Net volume, cubic inches (variable measure trade item)",
+    "dataTitle": "VOLUME (in3)",
+    "fnc1": false,
+    "decimals": 1,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3642",
+    "length": 6,
+    "description": "Net volume, cubic inches (variable measure trade item)",
+    "dataTitle": "VOLUME (in3)",
+    "fnc1": false,
+    "decimals": 2,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3643",
+    "length": 6,
+    "description": "Net volume, cubic inches (variable measure trade item)",
+    "dataTitle": "VOLUME (in3)",
+    "fnc1": false,
+    "decimals": 3,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3644",
+    "length": 6,
+    "description": "Net volume, cubic inches (variable measure trade item)",
+    "dataTitle": "VOLUME (in3)",
+    "fnc1": false,
+    "decimals": 4,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3645",
+    "length": 6,
+    "description": "Net volume, cubic inches (variable measure trade item)",
+    "dataTitle": "VOLUME (in3)",
+    "fnc1": false,
+    "decimals": 5,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3650",
+    "length": 6,
+    "description": "Net volume, cubic feet (variable measure trade item)",
+    "dataTitle": "VOLUME (ft3)",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3651",
+    "length": 6,
+    "description": "Net volume, cubic feet (variable measure trade item)",
+    "dataTitle": "VOLUME (ft3)",
+    "fnc1": false,
+    "decimals": 1,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3652",
+    "length": 6,
+    "description": "Net volume, cubic feet (variable measure trade item)",
+    "dataTitle": "VOLUME (ft3)",
+    "fnc1": false,
+    "decimals": 2,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3653",
+    "length": 6,
+    "description": "Net volume, cubic feet (variable measure trade item)",
+    "dataTitle": "VOLUME (ft3)",
+    "fnc1": false,
+    "decimals": 3,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3654",
+    "length": 6,
+    "description": "Net volume, cubic feet (variable measure trade item)",
+    "dataTitle": "VOLUME (ft3)",
+    "fnc1": false,
+    "decimals": 4,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3655",
+    "length": 6,
+    "description": "Net volume, cubic feet (variable measure trade item)",
+    "dataTitle": "VOLUME (ft3)",
+    "fnc1": false,
+    "decimals": 5,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3660",
+    "length": 6,
+    "description": "Net volume, cubic yards (variable measure trade item)",
+    "dataTitle": "VOLUME (yd3)",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3661",
+    "length": 6,
+    "description": "Net volume, cubic yards (variable measure trade item)",
+    "dataTitle": "VOLUME (yd3)",
+    "fnc1": false,
+    "decimals": 1,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3662",
+    "length": 6,
+    "description": "Net volume, cubic yards (variable measure trade item)",
+    "dataTitle": "VOLUME (yd3)",
+    "fnc1": false,
+    "decimals": 2,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3663",
+    "length": 6,
+    "description": "Net volume, cubic yards (variable measure trade item)",
+    "dataTitle": "VOLUME (yd3)",
+    "fnc1": false,
+    "decimals": 3,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3664",
+    "length": 6,
+    "description": "Net volume, cubic yards (variable measure trade item)",
+    "dataTitle": "VOLUME (yd3)",
+    "fnc1": false,
+    "decimals": 4,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3665",
+    "length": 6,
+    "description": "Net volume, cubic yards (variable measure trade item)",
+    "dataTitle": "VOLUME (yd3)",
+    "fnc1": false,
+    "decimals": 5,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3670",
+    "length": 6,
+    "description": "Logistic volume, cubic inches",
+    "dataTitle": "VOLUME (in3), log",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3671",
+    "length": 6,
+    "description": "Logistic volume, cubic inches",
+    "dataTitle": "VOLUME (in3), log",
+    "fnc1": false,
+    "decimals": 1,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3672",
+    "length": 6,
+    "description": "Logistic volume, cubic inches",
+    "dataTitle": "VOLUME (in3), log",
+    "fnc1": false,
+    "decimals": 2,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3673",
+    "length": 6,
+    "description": "Logistic volume, cubic inches",
+    "dataTitle": "VOLUME (in3), log",
+    "fnc1": false,
+    "decimals": 3,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3674",
+    "length": 6,
+    "description": "Logistic volume, cubic inches",
+    "dataTitle": "VOLUME (in3), log",
+    "fnc1": false,
+    "decimals": 4,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3675",
+    "length": 6,
+    "description": "Logistic volume, cubic inches",
+    "dataTitle": "VOLUME (in3), log",
+    "fnc1": false,
+    "decimals": 5,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3680",
+    "length": 6,
+    "description": "Logistic volume, cubic feet",
+    "dataTitle": "VOLUME (ft3), log",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3681",
+    "length": 6,
+    "description": "Logistic volume, cubic feet",
+    "dataTitle": "VOLUME (ft3), log",
+    "fnc1": false,
+    "decimals": 1,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3682",
+    "length": 6,
+    "description": "Logistic volume, cubic feet",
+    "dataTitle": "VOLUME (ft3), log",
+    "fnc1": false,
+    "decimals": 2,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3683",
+    "length": 6,
+    "description": "Logistic volume, cubic feet",
+    "dataTitle": "VOLUME (ft3), log",
+    "fnc1": false,
+    "decimals": 3,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3684",
+    "length": 6,
+    "description": "Logistic volume, cubic feet",
+    "dataTitle": "VOLUME (ft3), log",
+    "fnc1": false,
+    "decimals": 4,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3685",
+    "length": 6,
+    "description": "Logistic volume, cubic feet",
+    "dataTitle": "VOLUME (ft3), log",
+    "fnc1": false,
+    "decimals": 5,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3690",
+    "length": 6,
+    "description": "Logistic volume, cubic yards",
+    "dataTitle": "VOLUME (yd3), log",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3691",
+    "length": 6,
+    "description": "Logistic volume, cubic yards",
+    "dataTitle": "VOLUME (yd3), log",
+    "fnc1": false,
+    "decimals": 1,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3692",
+    "length": 6,
+    "description": "Logistic volume, cubic yards",
+    "dataTitle": "VOLUME (yd3), log",
+    "fnc1": false,
+    "decimals": 2,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3693",
+    "length": 6,
+    "description": "Logistic volume, cubic yards",
+    "dataTitle": "VOLUME (yd3), log",
+    "fnc1": false,
+    "decimals": 3,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3694",
+    "length": 6,
+    "description": "Logistic volume, cubic yards",
+    "dataTitle": "VOLUME (yd3), log",
+    "fnc1": false,
+    "decimals": 4,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3695",
+    "length": 6,
+    "description": "Logistic volume, cubic yards",
+    "dataTitle": "VOLUME (yd3), log",
+    "fnc1": false,
+    "decimals": 5,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "37",
+    "length": 8,
+    "description": "Count of trade items or trade item pieces contained in a logistic unit",
+    "dataTitle": "COUNT",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3900",
+    "length": 15,
+    "description": "Applicable amount payable or Coupon value, local currency",
+    "dataTitle": "AMOUNT",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3901",
+    "length": 15,
+    "description": "Applicable amount payable or Coupon value, local currency",
+    "dataTitle": "AMOUNT",
+    "fnc1": true,
+    "decimals": 1,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3902",
+    "length": 15,
+    "description": "Applicable amount payable or Coupon value, local currency",
+    "dataTitle": "AMOUNT",
+    "fnc1": true,
+    "decimals": 2,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3903",
+    "length": 15,
+    "description": "Applicable amount payable or Coupon value, local currency",
+    "dataTitle": "AMOUNT",
+    "fnc1": true,
+    "decimals": 3,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3904",
+    "length": 15,
+    "description": "Applicable amount payable or Coupon value, local currency",
+    "dataTitle": "AMOUNT",
+    "fnc1": true,
+    "decimals": 4,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3905",
+    "length": 15,
+    "description": "Applicable amount payable or Coupon value, local currency",
+    "dataTitle": "AMOUNT",
+    "fnc1": true,
+    "decimals": 5,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3906",
+    "length": 15,
+    "description": "Applicable amount payable or Coupon value, local currency",
+    "dataTitle": "AMOUNT",
+    "fnc1": true,
+    "decimals": 6,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3907",
+    "length": 15,
+    "description": "Applicable amount payable or Coupon value, local currency",
+    "dataTitle": "AMOUNT",
+    "fnc1": true,
+    "decimals": 7,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3908",
+    "length": 15,
+    "description": "Applicable amount payable or Coupon value, local currency",
+    "dataTitle": "AMOUNT",
+    "fnc1": true,
+    "decimals": 8,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3909",
+    "length": 15,
+    "description": "Applicable amount payable or Coupon value, local currency",
+    "dataTitle": "AMOUNT",
+    "fnc1": true,
+    "decimals": 9,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3910",
+    "length": 18,
+    "description": "Applicable amount payable with ISO currency code",
+    "dataTitle": "AMOUNT",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3911",
+    "length": 18,
+    "description": "Applicable amount payable with ISO currency code",
+    "dataTitle": "AMOUNT",
+    "fnc1": true,
+    "decimals": 1,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3912",
+    "length": 18,
+    "description": "Applicable amount payable with ISO currency code",
+    "dataTitle": "AMOUNT",
+    "fnc1": true,
+    "decimals": 2,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3913",
+    "length": 18,
+    "description": "Applicable amount payable with ISO currency code",
+    "dataTitle": "AMOUNT",
+    "fnc1": true,
+    "decimals": 3,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3914",
+    "length": 18,
+    "description": "Applicable amount payable with ISO currency code",
+    "dataTitle": "AMOUNT",
+    "fnc1": true,
+    "decimals": 4,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3915",
+    "length": 18,
+    "description": "Applicable amount payable with ISO currency code",
+    "dataTitle": "AMOUNT",
+    "fnc1": true,
+    "decimals": 5,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3916",
+    "length": 18,
+    "description": "Applicable amount payable with ISO currency code",
+    "dataTitle": "AMOUNT",
+    "fnc1": true,
+    "decimals": 6,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3917",
+    "length": 18,
+    "description": "Applicable amount payable with ISO currency code",
+    "dataTitle": "AMOUNT",
+    "fnc1": true,
+    "decimals": 7,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3918",
+    "length": 18,
+    "description": "Applicable amount payable with ISO currency code",
+    "dataTitle": "AMOUNT",
+    "fnc1": true,
+    "decimals": 8,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3919",
+    "length": 18,
+    "description": "Applicable amount payable with ISO currency code",
+    "dataTitle": "AMOUNT",
+    "fnc1": true,
+    "decimals": 9,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3920",
+    "length": 15,
+    "description": "Applicable amount payable, single monetary area (variable measure trade item)",
+    "dataTitle": "PRICE",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3921",
+    "length": 15,
+    "description": "Applicable amount payable, single monetary area (variable measure trade item)",
+    "dataTitle": "PRICE",
+    "fnc1": true,
+    "decimals": 1,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3922",
+    "length": 15,
+    "description": "Applicable amount payable, single monetary area (variable measure trade item)",
+    "dataTitle": "PRICE",
+    "fnc1": true,
+    "decimals": 2,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3923",
+    "length": 15,
+    "description": "Applicable amount payable, single monetary area (variable measure trade item)",
+    "dataTitle": "PRICE",
+    "fnc1": true,
+    "decimals": 3,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3924",
+    "length": 15,
+    "description": "Applicable amount payable, single monetary area (variable measure trade item)",
+    "dataTitle": "PRICE",
+    "fnc1": true,
+    "decimals": 4,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3925",
+    "length": 15,
+    "description": "Applicable amount payable, single monetary area (variable measure trade item)",
+    "dataTitle": "PRICE",
+    "fnc1": true,
+    "decimals": 5,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3926",
+    "length": 15,
+    "description": "Applicable amount payable, single monetary area (variable measure trade item)",
+    "dataTitle": "PRICE",
+    "fnc1": true,
+    "decimals": 6,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3927",
+    "length": 15,
+    "description": "Applicable amount payable, single monetary area (variable measure trade item)",
+    "dataTitle": "PRICE",
+    "fnc1": true,
+    "decimals": 7,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3928",
+    "length": 15,
+    "description": "Applicable amount payable, single monetary area (variable measure trade item)",
+    "dataTitle": "PRICE",
+    "fnc1": true,
+    "decimals": 8,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3929",
+    "length": 15,
+    "description": "Applicable amount payable, single monetary area (variable measure trade item)",
+    "dataTitle": "PRICE",
+    "fnc1": true,
+    "decimals": 9,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3930",
+    "length": 18,
+    "description": "Applicable amount payable with ISO currency code (variable measure trade item)",
+    "dataTitle": "PRICE",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3931",
+    "length": 18,
+    "description": "Applicable amount payable with ISO currency code (variable measure trade item)",
+    "dataTitle": "PRICE",
+    "fnc1": true,
+    "decimals": 1,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3932",
+    "length": 18,
+    "description": "Applicable amount payable with ISO currency code (variable measure trade item)",
+    "dataTitle": "PRICE",
+    "fnc1": true,
+    "decimals": 2,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3933",
+    "length": 18,
+    "description": "Applicable amount payable with ISO currency code (variable measure trade item)",
+    "dataTitle": "PRICE",
+    "fnc1": true,
+    "decimals": 3,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3934",
+    "length": 18,
+    "description": "Applicable amount payable with ISO currency code (variable measure trade item)",
+    "dataTitle": "PRICE",
+    "fnc1": true,
+    "decimals": 4,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3935",
+    "length": 18,
+    "description": "Applicable amount payable with ISO currency code (variable measure trade item)",
+    "dataTitle": "PRICE",
+    "fnc1": true,
+    "decimals": 5,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3936",
+    "length": 18,
+    "description": "Applicable amount payable with ISO currency code (variable measure trade item)",
+    "dataTitle": "PRICE",
+    "fnc1": true,
+    "decimals": 6,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3937",
+    "length": 18,
+    "description": "Applicable amount payable with ISO currency code (variable measure trade item)",
+    "dataTitle": "PRICE",
+    "fnc1": true,
+    "decimals": 7,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3938",
+    "length": 18,
+    "description": "Applicable amount payable with ISO currency code (variable measure trade item)",
+    "dataTitle": "PRICE",
+    "fnc1": true,
+    "decimals": 8,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3939",
+    "length": 18,
+    "description": "Applicable amount payable with ISO currency code (variable measure trade item)",
+    "dataTitle": "PRICE",
+    "fnc1": true,
+    "decimals": 9,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3940",
+    "length": 4,
+    "description": "Percentage discount of a coupon",
+    "dataTitle": "PRCNT OFF",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3941",
+    "length": 4,
+    "description": "Percentage discount of a coupon",
+    "dataTitle": "PRCNT OFF",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3942",
+    "length": 4,
+    "description": "Percentage discount of a coupon",
+    "dataTitle": "PRCNT OFF",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3943",
+    "length": 4,
+    "description": "Percentage discount of a coupon",
+    "dataTitle": "PRCNT OFF",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3950",
+    "length": 6,
+    "description": "Amount Payable per unit of measure single monetary area (variable measure trade item)",
+    "dataTitle": "PRICE/UoM",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3951",
+    "length": 6,
+    "description": "Amount Payable per unit of measure single monetary area (variable measure trade item)",
+    "dataTitle": "PRICE/UoM",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3952",
+    "length": 6,
+    "description": "Amount Payable per unit of measure single monetary area (variable measure trade item)",
+    "dataTitle": "PRICE/UoM",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3953",
+    "length": 6,
+    "description": "Amount Payable per unit of measure single monetary area (variable measure trade item)",
+    "dataTitle": "PRICE/UoM",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3954",
+    "length": 6,
+    "description": "Amount Payable per unit of measure single monetary area (variable measure trade item)",
+    "dataTitle": "PRICE/UoM",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3955",
+    "length": 6,
+    "description": "Amount Payable per unit of measure single monetary area (variable measure trade item)",
+    "dataTitle": "PRICE/UoM",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3956",
+    "length": 6,
+    "description": "Amount Payable per unit of measure single monetary area (variable measure trade item)",
+    "dataTitle": "PRICE/UoM",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3957",
+    "length": 6,
+    "description": "Amount Payable per unit of measure single monetary area (variable measure trade item)",
+    "dataTitle": "PRICE/UoM",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3958",
+    "length": 6,
+    "description": "Amount Payable per unit of measure single monetary area (variable measure trade item)",
+    "dataTitle": "PRICE/UoM",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "3959",
+    "length": 6,
+    "description": "Amount Payable per unit of measure single monetary area (variable measure trade item)",
+    "dataTitle": "PRICE/UoM",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "400",
+    "length": 30,
+    "description": "Customers purchase order number",
+    "dataTitle": "ORDER NUMBER",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "401",
+    "length": 30,
+    "description": "Global Identification Number for Consignment (GINC)",
+    "dataTitle": "GINC",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "402",
+    "length": 17,
+    "description": "Global Shipment Identification Number (GSIN)",
+    "dataTitle": "GSIN",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "403",
+    "length": 30,
+    "description": "Routing code",
+    "dataTitle": "ROUTE",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "410",
+    "length": 13,
+    "description": "Ship to / Deliver to Global Location Number (GLN)",
+    "dataTitle": "SHIP TO LOC",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "411",
+    "length": 13,
+    "description": "Bill to / Invoice to Global Location Number (GLN)",
+    "dataTitle": "BILL TO",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "412",
+    "length": 13,
+    "description": "Purchased from Global Location Number (GLN)",
+    "dataTitle": "PURCHASE FROM",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "413",
+    "length": 13,
+    "description": "Ship for / Deliver for - Forward to Global Location Number (GLN)",
+    "dataTitle": "SHIP FOR LOC",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "414",
+    "length": 13,
+    "description": "Identification of a physical location - Global Location Number (GLN)",
+    "dataTitle": "LOC No",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "415",
+    "length": 13,
+    "description": "Global Location Number (GLN) of the invoicing party",
+    "dataTitle": "PAY TO",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "416",
+    "length": 13,
+    "description": "Global Location Number (GLN) of the production or service location",
+    "dataTitle": "PROD/SERV LOC",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "417",
+    "length": 13,
+    "description": "Party Global Location Number (GLN)",
+    "dataTitle": "PARTY",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "420",
+    "length": 20,
+    "description": "Ship to / Deliver to postal code within a single postal authority",
+    "dataTitle": "SHIP TO POST",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "421",
+    "length": 12,
+    "description": "Ship to / Deliver to postal code with ISO country code",
+    "dataTitle": "SHIP TO POST",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "422",
+    "length": 3,
+    "description": "Country of origin of a trade item",
+    "dataTitle": "ORIGIN",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "423",
+    "length": 15,
+    "description": "Country of initial processing",
+    "dataTitle": "COUNTRY - INITIAL PROCESS.",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "424",
+    "length": 3,
+    "description": "Country of processing",
+    "dataTitle": "COUNTRY - PROCESS.",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "425",
+    "length": 15,
+    "description": "Country of disassembly",
+    "dataTitle": "COUNTRY - DISASSEMBLY",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "426",
+    "length": 3,
+    "description": "Country covering full process chain",
+    "dataTitle": "COUNTRY - FULL PROCESS",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "427",
+    "length": 3,
+    "description": "Country subdivision Of origin",
+    "dataTitle": "ORIGIN SUBDIVISION",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "4300",
+    "length": 35,
+    "description": "Ship-to / Deliver-to company name",
+    "dataTitle": "SHIP TO COMP",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "4301",
+    "length": 35,
+    "description": "Ship-to / Deliver-to contact",
+    "dataTitle": "SHIP TO NAME",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "4302",
+    "length": 70,
+    "description": "Ship-to / Deliver-to address line 1",
+    "dataTitle": "SHIP TO ADD1",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "4303",
+    "length": 70,
+    "description": "Ship-to / Deliver-to address line 2",
+    "dataTitle": "SHIP TO ADD2",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "4304",
+    "length": 70,
+    "description": "Ship-to / Deliver-to suburb",
+    "dataTitle": "SHIP TO SUB",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "4305",
+    "length": 70,
+    "description": "Ship-to / Deliver-to locality",
+    "dataTitle": "SHIP TO LOC",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "4306",
+    "length": 70,
+    "description": "Ship-to / Deliver-to region",
+    "dataTitle": "SHIP TO REG",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "4307",
+    "length": 2,
+    "description": "Ship-to / Deliver-to country code",
+    "dataTitle": "SHIP TO COUNTRY",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "4308",
+    "length": 30,
+    "description": "Ship-to / Deliver-to telephone number",
+    "dataTitle": "SHIP TO PHONE",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "4310",
+    "length": 35,
+    "description": "Return-to company name",
+    "dataTitle": "RTN TO COMP",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "4311",
+    "length": 35,
+    "description": "Return-to contact",
+    "dataTitle": "RTN TO NAME",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "4312",
+    "length": 70,
+    "description": "Return-to address line 1",
+    "dataTitle": "RTN TO ADD1",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "4313",
+    "length": 70,
+    "description": "Return-to address line 2",
+    "dataTitle": "RTN TO ADD2 \t,Yes",
+    "fnc1": false,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "4314",
+    "length": 70,
+    "description": "Return-to suburb",
+    "dataTitle": "RTN TO SUB",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "4315",
+    "length": 70,
+    "description": "Return-to locality",
+    "dataTitle": "RTN TO LOC",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "4316",
+    "length": 70,
+    "description": "Return-to region",
+    "dataTitle": "RTN TO REG",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "4317",
+    "length": 2,
+    "description": "Return-to country code",
+    "dataTitle": "RTN TO COUNTRY",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "4318",
+    "length": 20,
+    "description": "Return-to postal code",
+    "dataTitle": "RTN TO POST",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "4319",
+    "length": 30,
+    "description": "Return-to telephone number",
+    "dataTitle": "RTN TO PHONE",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "4320",
+    "length": 35,
+    "description": "Service code description",
+    "dataTitle": "SRV DESCRIPTION",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "4321",
+    "length": 1,
+    "description": "Dangerous goods flag",
+    "dataTitle": "DANGEROUS GOODS",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "4322",
+    "length": 1,
+    "description": "Authority to leave",
+    "dataTitle": "AUTH TO LEAVE",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "4323",
+    "length": 1,
+    "description": "Signature required flag",
+    "dataTitle": "SIG REQUIRED",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "4324",
+    "length": 10,
+    "description": "Not before delivery date time",
+    "dataTitle": "NOT BEF DEL DT",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "4325",
+    "length": 10,
+    "description": "Not after delivery date time",
+    "dataTitle": "NOT AFT DEL DT",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "4326",
+    "length": 6,
+    "description": "Release date",
+    "dataTitle": "REL DATE",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "7001",
+    "length": 13,
+    "description": "NATO Stock Number (NSN)",
+    "dataTitle": "NSN",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "7002",
+    "length": 30,
+    "description": "UN/ECE meat carcasses and cuts classification",
+    "dataTitle": "MEAT CUT",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "7003",
+    "length": 10,
+    "description": "Expiration date and time",
+    "dataTitle": "EXPIRY TIME",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "7004",
+    "length": 4,
+    "description": "Active potency",
+    "dataTitle": "ACTIVE POTENCY",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "7005",
+    "length": 12,
+    "description": "Catch area",
+    "dataTitle": "CATCH AREA",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "7006",
+    "length": 6,
+    "description": "First freeze date",
+    "dataTitle": "FIRST FREEZE DATE",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "7007",
+    "length": 612,
+    "description": "Harvest date",
+    "dataTitle": "HARVEST DATE",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "7008",
+    "length": 3,
+    "description": "Species for fishery purposes",
+    "dataTitle": "AQUATIC SPECIES",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "7009",
+    "length": 10,
+    "description": "Fishing gear type",
+    "dataTitle": "FISHING GEAR TYPE",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "7010",
+    "length": 2,
+    "description": "Production method",
+    "dataTitle": "PROD METHOD",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "7020",
+    "length": 20,
+    "description": "Refurbishment lot ID",
+    "dataTitle": "REFURB LOT",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "7021",
+    "length": 20,
+    "description": "Functional status",
+    "dataTitle": "FUNC STAT",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "7022",
+    "length": 20,
+    "description": "Revision status",
+    "dataTitle": "REV STAT",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "7023",
+    "length": 30,
+    "description": "Global Individual Asset Identifier (GIAI) of an assembly",
+    "dataTitle": "GIAI - ASSEMBLY",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "7030",
+    "length": 30,
+    "description": "Number of processor with ISO Country Code",
+    "dataTitle": "PROCESSOR # 0",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "7031",
+    "length": 30,
+    "description": "Number of processor with ISO Country Code",
+    "dataTitle": "PROCESSOR # 1",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "7032",
+    "length": 30,
+    "description": "Number of processor with ISO Country Code",
+    "dataTitle": "PROCESSOR # 2",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "7033",
+    "length": 30,
+    "description": "Number of processor with ISO Country Code",
+    "dataTitle": "PROCESSOR # 3",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "7034",
+    "length": 30,
+    "description": "Number of processor with ISO Country Code",
+    "dataTitle": "PROCESSOR # 4",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "7035",
+    "length": 30,
+    "description": "Number of processor with ISO Country Code",
+    "dataTitle": "PROCESSOR # 5",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "7036",
+    "length": 30,
+    "description": "Number of processor with ISO Country Code",
+    "dataTitle": "PROCESSOR # 6",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "7037",
+    "length": 30,
+    "description": "Number of processor with ISO Country Code",
+    "dataTitle": "PROCESSOR # 7",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "7038",
+    "length": 30,
+    "description": "Number of processor with ISO Country Code",
+    "dataTitle": "PROCESSOR # 8",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "7039",
+    "length": 30,
+    "description": "Number of processor with ISO Country Code",
+    "dataTitle": "PROCESSOR # 9",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "7040",
+    "length": 4,
+    "description": "GS1 UIC with Extension 1 and Importer index",
+    "dataTitle": "UIC+EXT",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "710",
+    "length": 20,
+    "description": "National Healthcare Reimbursement Number (NHRN) - Germany PZN",
+    "dataTitle": "NHRN PZN",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "711",
+    "length": 20,
+    "description": "National Healthcare Reimbursement Number (NHRN) - France CIP",
+    "dataTitle": "NHRN CIP",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "712",
+    "length": 20,
+    "description": "National Healthcare Reimbursement Number (NHRN) - Spain CN",
+    "dataTitle": "NHRN CN",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "713",
+    "length": 20,
+    "description": "National Healthcare Reimbursement Number (NHRN) - Brasil DRN",
+    "dataTitle": "NHRN DRN",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "714",
+    "length": 20,
+    "description": "National Healthcare Reimbursement Number (NHRN) - Portugal AIM",
+    "dataTitle": "NHRN AIM",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "7230",
+    "length": 30,
+    "description": "Certification reference",
+    "dataTitle": "CERT #1",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "7231",
+    "length": 30,
+    "description": "Certification reference",
+    "dataTitle": "CERT #2",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "7232",
+    "length": 30,
+    "description": "Certification reference",
+    "dataTitle": "CERT #3",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "7233",
+    "length": 30,
+    "description": "Certification reference",
+    "dataTitle": "CERT #4",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "7234",
+    "length": 30,
+    "description": "Certification reference",
+    "dataTitle": "CERT #5",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "7235",
+    "length": 30,
+    "description": "Certification reference",
+    "dataTitle": "CERT #6",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "7236",
+    "length": 30,
+    "description": "Certification reference",
+    "dataTitle": "CERT #7",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "7237",
+    "length": 30,
+    "description": "Certification reference",
+    "dataTitle": "CERT #8",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "7238",
+    "length": 30,
+    "description": "Certification reference",
+    "dataTitle": "CERT #9",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "7239",
+    "length": 30,
+    "description": "Certification reference",
+    "dataTitle": "CERT #10",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "7240",
+    "length": 20,
+    "description": "Protocol ID",
+    "dataTitle": "PROTOCOL",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "8001",
+    "length": 14,
+    "description": "Roll products (width, length, core diameter, direction, splices)",
+    "dataTitle": "DIMENSIONS",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "8002",
+    "length": 20,
+    "description": "Cellular mobile telephone identifier",
+    "dataTitle": "CMT No",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "8003",
+    "length": 30,
+    "description": "Global Returnable Asset Identifier (GRAI)",
+    "dataTitle": "GRAI",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "8004",
+    "length": 30,
+    "description": "Global Individual Asset Identifier (GIAI)",
+    "dataTitle": "GIAI",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "8005",
+    "length": 6,
+    "description": "Price per unit of measure",
+    "dataTitle": "PRICE PER UNIT",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "8006",
+    "length": 18,
+    "description": "Identification of an individual trade item piece (ITIP)",
+    "dataTitle": "ITIP",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "8007",
+    "length": 34,
+    "description": "International Bank Account Number (IBAN)",
+    "dataTitle": "IBAN",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "8008",
+    "length": 12,
+    "description": "Date and time of production",
+    "dataTitle": "PROD TIME",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "8009",
+    "length": 50,
+    "description": "Optically Readable Sensor Indicator",
+    "dataTitle": "OPTSEN",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "8010",
+    "length": 30,
+    "description": "Component/Part Identifier (CPID)",
+    "dataTitle": "CPID",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "8011",
+    "length": 12,
+    "description": "Component/Part Identifier serial number (CPID SERIAL)",
+    "dataTitle": "CPID SERIAL",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "8012",
+    "length": 20,
+    "description": "Software version",
+    "dataTitle": "VERSION",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "8013",
+    "length": 25,
+    "description": "Global Model Number (GMN)",
+    "dataTitle": "GMN (for medical devices, the default, global data title is BUDI-DI)",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "8017",
+    "length": 18,
+    "description": "Global Service Relation Number (GSRN) to identify the relationship between an organisation offering services and the provider of services",
+    "dataTitle": "GSRN - PROVIDER",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "8018",
+    "length": 18,
+    "description": "Global Service Relation Number (GSRN) to identify the relationship between an organisation offering services and the recipient of services",
+    "dataTitle": "GSRN - RECIPIENT",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "8019",
+    "length": 10,
+    "description": "Service Relation Instance Number (SRIN)",
+    "dataTitle": "SRIN",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "8020",
+    "length": 25,
+    "description": "Payment slip reference number",
+    "dataTitle": "REF No",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "8026",
+    "length": 18,
+    "description": "Identification of pieces of a trade item (ITIP) contained in a logistic unit",
+    "dataTitle": "ITIP CONTENT",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "8110",
+    "length": 70,
+    "description": "Coupon code identification for use in North America",
+    "dataTitle": "",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "8111",
+    "length": 4,
+    "description": "Loyalty points of a coupon",
+    "dataTitle": "POINTS",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "8112",
+    "length": 70,
+    "description": "Paperless coupon code identification for use in North America",
+    "dataTitle": "",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "8200",
+    "length": 70,
+    "description": "Extended Packaging URL",
+    "dataTitle": "PRODUCT URL",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "90",
+    "length": 30,
+    "description": "Information mutually agreed between trading partners",
+    "dataTitle": "INTERNAL",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "91",
+    "length": 90,
+    "description": "Company internal information",
+    "dataTitle": "INTERNAL",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "92",
+    "length": 90,
+    "description": "Company internal information",
+    "dataTitle": "INTERNAL",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "93",
+    "length": 90,
+    "description": "Company internal information",
+    "dataTitle": "INTERNAL",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "94",
+    "length": 90,
+    "description": "Company internal information",
+    "dataTitle": "INTERNAL",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "95",
+    "length": 90,
+    "description": "Company internal information",
+    "dataTitle": "INTERNAL",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "96",
+    "length": 90,
+    "description": "Company internal information",
+    "dataTitle": "INTERNAL",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "97",
+    "length": 90,
+    "description": "Company internal information",
+    "dataTitle": "INTERNAL",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "98",
+    "length": 90,
+    "description": "Company internal information",
+    "dataTitle": "INTERNAL",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  },
+  {
+    "id": "99",
+    "length": 90,
+    "description": "Company internal information",
+    "dataTitle": "INTERNAL",
+    "fnc1": true,
+    "decimals": 0,
+    "shortName": "",
+    "dataType": ""
+  }
+]
