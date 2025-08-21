@@ -54,7 +54,6 @@ class GS1ScannerTest : ShouldSpec({
                     "101234567890012345678901234${gs}0112345678901234"
                 )
             )
-
         }
     }
 
@@ -141,26 +140,7 @@ class GS1ScannerTest : ShouldSpec({
             valueThree.value shouldBe "220521"
             valueFour.value shouldBe "001.125"
         }
-//
-//        @Test
-//        void varIdTooLong() {
-//            final String gs1 = "Ê019909999954321031030011251522052110Abc123019909999954321031030011251522052110Abc";
-//            final GS1Result result = sut.scanGS1(gs1);
-//            assertEquals(GS1STATUS.NO_GS, result.getStatus());
-//        }
-//
-//        @Test
-//        void varIdTooShort() {
-//            final String gs1 = "Ê00990999995";
-//            final GS1Result result = sut.scanGS1(gs1);
-//            assertEquals(GS1STATUS.INVALID_LENGTH, result.getStatus());
-//        }
-//        @Test
-//        void missingGS() {
-//            final String gs1 = "Ê019909999954321031030011251522052110Abc123019909999954321031030011251522052110Abc123";
-//            final GS1Result result = sut.scanGS1(gs1);
-//            assertEquals(GS1STATUS.NO_GS, result.getStatus());
-//        }
+
     }
 
 

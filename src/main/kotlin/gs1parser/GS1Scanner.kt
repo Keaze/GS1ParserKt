@@ -29,19 +29,15 @@ class GS1Scanner(val fnc1: String = DEFAULT_FNC1, val gs: String = "|", val aiLi
     }
 
     private tailrec fun startParse(barcode: String, parseResult: Gs1Success): ResultKt<Gs1Success, Gs1ParseErrors> {
+        if (barcode.isBlank()) {
+            return ResultKt.success(parseResult)
+        }
         val ai = findAi(barcode).flatMap { parseAi(it, barcode) }
         val newResult = ai.map { parseResult.copy(barcodeValues = parseResult.barcodeValues + it) }
-        lateinit var nextBarcode: String
-        when (newResult) {
+        return when (newResult) {
             is ResultKt.Failure -> return newResult
-            is ResultKt.Success -> {
-                nextBarcode = getRemainingBarcode(ai.orThrow(), barcode)
-                if (nextBarcode.isBlank()) {
-                    return newResult
-                }
-            }
+            is ResultKt.Success -> startParse(getRemainingBarcode(ai.orThrow(), barcode), newResult.orThrow())
         }
-        return startParse(nextBarcode, newResult.orThrow())
     }
 
     private fun findAi(barcode: String): ResultKt<Gs1Ai, Gs1ParseErrors> {
@@ -93,8 +89,8 @@ class GS1Scanner(val fnc1: String = DEFAULT_FNC1, val gs: String = "|", val aiLi
     }
 
     private fun parseStaticAi(ai: Gs1Ai, barcode: String): ResultKt<AiValue, Gs1ParseErrors> {
-        removeAiId(ai.id, barcode).let {
-            return (if(it.length < ai.length){
+        return removeAiId(ai.id, barcode).let {
+            (if (it.length < ai.length) {
                 Gs1ParseErrors.ValueLengthError(ai.id, ai.length, barcode).toResult()
             } else {
                 AiValue(ai, it.substring(0, ai.length)).toResult()
