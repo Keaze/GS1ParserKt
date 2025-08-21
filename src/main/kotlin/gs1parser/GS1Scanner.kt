@@ -22,7 +22,7 @@ class GS1Scanner(val fnc1: String = DEFAULT_FNC1, val gs: String = "|", val aiLi
 
     fun parse(barcode: String): ResultKt<Gs1Success, Gs1ParseErrors> {
         if (!isGs1Format(barcode)) {
-            return ResultKt.failure(Gs1ParseErrors.NotAGs1Barcode)
+            return Gs1ParseErrors.NotAGs1Barcode.toResult()
         }
         val result= Gs1Success(GS1Barcode(barcode))
         return startParse(barcode.substring(fnc1.length), result)
@@ -31,40 +31,73 @@ class GS1Scanner(val fnc1: String = DEFAULT_FNC1, val gs: String = "|", val aiLi
     private tailrec fun startParse(barcode: String, parseResult: Gs1Success): ResultKt<Gs1Success, Gs1ParseErrors> {
         val ai = findAi(barcode).flatMap { parseAi(it, barcode) }
         val newResult = ai.map { parseResult.copy(barcodeValues = parseResult.barcodeValues + it) }
-        if (newResult.isFailure) {
-            return newResult
+        lateinit var nextBarcode: String
+        when (newResult) {
+            is ResultKt.Failure -> return newResult
+            is ResultKt.Success -> {
+                nextBarcode = getRemainingBarcode(ai.orThrow(), barcode)
+                if (nextBarcode.isBlank()) {
+                    return newResult
+                }
+            }
         }
-        val nextBarcode = getRemainingBarcode(ai.orThrow(), barcode)
-        if (nextBarcode.isBlank()) {
-            return newResult
-        }
-        return startParse(nextBarcode, parseResult)
+        return startParse(nextBarcode, newResult.orThrow())
     }
 
     private fun findAi(barcode: String): ResultKt<Gs1Ai, Gs1ParseErrors> {
         return aiList.firstOrNull { barcode.startsWith(it.id) }?.let {
             ResultKt.success(it)
-        } ?: ResultKt.failure(Gs1ParseErrors.AiNotFound)
+        } ?: Gs1ParseErrors.AiNotFound(barcode).toResult()
     }
     private fun parseAi(ai: Gs1Ai, barcode: String): ResultKt<AiValue, Gs1ParseErrors>{
-        return if(ai.fnc1Required){
-            TODO()
+        return (if (ai.fnc1Required) {
+            parseVariableAi(ai, barcode)
         } else {
             parseStaticAi(ai, barcode)
+        }).map(this::addDecimalToValue)
+
+    }
+
+    private fun addDecimalToValue(aiValue: AiValue): AiValue {
+        return if (aiValue.ai.decimals > 0) {
+            aiValue.copy(value = aiValue.value.take(aiValue.ai.decimals) + "." + aiValue.value.substring(aiValue.ai.decimals))
+        } else {
+            aiValue
         }
 
     }
 
+    private fun parseVariableAi(ai: Gs1Ai, barcode: String): ResultKt<AiValue, Gs1ParseErrors> {
+        removeAiId(ai.id, barcode).let {
+            val gsIndex = it.indexOf(gs)
+            return if ((gsIndex != -1) and (gsIndex <= ai.length)) {
+                it.substring(0, gsIndex).let { value -> ResultKt.success(AiValue(ai, value)) }
+            } else {
+                if (it.length <= ai.length) {
+                    AiValue(ai, it).toResult()
+                } else {
+                    Gs1ParseErrors.GsNotFound(ai.id, barcode).toResult()
+                }
+            }
+        }
+    }
+
     private fun getRemainingBarcode(aiValue: AiValue, barcode: String): String {
-        return barcode.substring(aiValue.ai.id.length + aiValue.value.length)
+        val valueLength = if (aiValue.ai.decimals <= 0) aiValue.value.length else aiValue.value.length - 1
+        val barcodeWithoutAi = barcode.substring(aiValue.ai.id.length + valueLength)
+        return if (barcodeWithoutAi.startsWith(gs)) {
+            barcodeWithoutAi.substring(gs.length)
+        } else {
+            barcodeWithoutAi
+        }
     }
 
     private fun parseStaticAi(ai: Gs1Ai, barcode: String): ResultKt<AiValue, Gs1ParseErrors> {
         removeAiId(ai.id, barcode).let {
             return (if(it.length < ai.length){
-                return ResultKt.failure(Gs1ParseErrors.ValueLengthError(ai.id, ai.length, barcode))
+                Gs1ParseErrors.ValueLengthError(ai.id, ai.length, barcode).toResult()
             } else {
-                ResultKt.success(AiValue(ai, it))
+                AiValue(ai, it.substring(0, ai.length)).toResult()
             })
         }
     }
@@ -82,4 +115,6 @@ class GS1Scanner(val fnc1: String = DEFAULT_FNC1, val gs: String = "|", val aiLi
     }
 }
 data class GS1Barcode (val barcode: String)
-fun Gs1ParseErrors.toResult(): ResultKt<Gs1Success, Gs1ParseErrors> = ResultKt.failure(this)
+
+fun <V> Gs1ParseErrors.toResult(): ResultKt<V, Gs1ParseErrors> = ResultKt.failure(this)
+fun <E> AiValue.toResult(): ResultKt<AiValue, E> = ResultKt.success(this)
