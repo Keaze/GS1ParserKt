@@ -1,18 +1,14 @@
 plugins {
-    kotlin("jvm") version "2.2.0"
-    kotlin("plugin.serialization") version "2.2.0"
+    kotlin("jvm")
+    id("org.jetbrains.kotlin.plugin.serialization")
 }
 
 group = "org.app"
 version = "1.0-SNAPSHOT"
 val kotest = "6.0.0"
-val kSerialization = "1.9.0"
-repositories {
-    mavenCentral()
-}
 
 dependencies {
-    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:$kSerialization")
+    implementation(libs.kotlinx.serialization.json)
     testImplementation(kotlin("test"))
     testImplementation("io.kotest:kotest-runner-junit5:$kotest")
     testImplementation("io.kotest:kotest-assertions-core:$kotest")
@@ -26,5 +22,5 @@ tasks.withType<Test>().configureEach {
     useJUnitPlatform()
 }
 kotlin {
-    jvmToolchain(21)
+    jvmToolchain(11)
 }
